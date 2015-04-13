@@ -1,4 +1,5 @@
 secret: no-secret-default
+message: Minionize the world !!!
 
 ---
 spring:
