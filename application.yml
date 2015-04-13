@@ -2,7 +2,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://Sirius:8761/eureka/
+      defaultZone: http://minion.eureka.machine:8761/eureka/
 ribbon:
   ServerListRefreshInterval: 5000
 
