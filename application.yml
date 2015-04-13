@@ -1,9 +1,10 @@
 eureka:
   client:
+    registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://Sirius:8761/eureka/
-  instance:
-    leaseRenewalIntervalInSeconds: 10
+ribbon:
+  ServerListRefreshInterval: 5000
 
 logging:
   level:
